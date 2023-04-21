@@ -1,0 +1,44 @@
+:root {
+    --primar-colory: #F8CB33;
+    --white: #FFFFFF;
+    --dark: #000000;
+    --dark-gray: #707070;
+    --grey: #CBCBCB;
+    --light-grey: #E6E6E6;
+    --primary-font: "Poppins", Arial, Helvetica, sans-serif;
+    --primary-font-md: "Poppins Medium", Arial, Helvetica, sans-serif;
+    --secondary-font-bold: "Poppins Bold", Arial, Helvetica, sans-serif;
+    --secondary-font-semibold: "Poppins SemiBold", Arial, Helvetica, sans-serif;
+
+}
+
+
+html {
+    box-sizing: border-box;
+    /* font-size: 10px */
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: var(--secondary-font-semibold);
+    /* background-color: var(--app-bg); */
+}
+
+
+
+/* --Reset Style--‌  */
+
+
+a {
+    text-decoration: none;
+}
+
+
