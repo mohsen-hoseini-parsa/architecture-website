@@ -365,10 +365,19 @@ a {
 }
 
 
+/* 
 
-/* MAIN */
+--MAIN--
 
-/* ABOUT US */
+*/
+
+/* 
+=================
+  --ABOUT US--
+================= 
+*/
+
+
 .main {
     margin-top: 12rem;
 }
@@ -463,4 +472,48 @@ a {
 .aboutus-right__btn:hover {
     background-color: var(--dark);
     color: var(--white);
+}
+
+
+
+/* 
+=================
+  --ABOUTUS social--
+================= 
+*/
+
+.abouts-socialmedia {
+    margin-top: 18rem;
+
+}
+
+.abouts-socialmedia__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abouts-socialmedia__title {
+    font-size: 4rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.abouts-socialmedia__svgs {
+    margin-top: 5rem;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+}
+
+.abouts-socialmedia__svg {
+    padding: 2.2rem;
+
+}
+.abouts-socialmedia__svg:hover{
+    color: var(--primar-colory);
 }

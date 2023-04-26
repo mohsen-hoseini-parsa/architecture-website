@@ -10,6 +10,10 @@
         font-size: 3rem;
         max-width: 38rem;
     }
+
+    .abouts-socialmedia__title {
+        font-size: 3.5rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -130,9 +134,11 @@
         align-items: center;
         margin-top: 4rem;
     }
+
     .aboutus-right__title {
         font-size: 2.5rem;
     }
+
     .aboutus-right__line {
         margin: 0 auto;
         width: 13.5rem;
@@ -140,7 +146,7 @@
 
     .aboutus-right__caption {
         padding: 0 1.5rem;
-    font-size: 1.6rem;
+        font-size: 1.6rem;
     }
 
     .aboutus-right__description {
@@ -148,13 +154,18 @@
         font-size: 1.2rem;
 
     }
+
     .aboutus-right__btn {
         text-transform: uppercase;
         font-size: 1.4rem;
         width: 20rem;
         height: 4rem;
         margin-top: 0;
-    
+
+    }
+
+    .abouts-socialmedia__title {
+        font-size: 2.8rem;
     }
 }
 
@@ -234,6 +245,15 @@
 
     }
 
+    .abouts-socialmedia {
+        margin-top: 9rem;
+    }
+
+    .abouts-socialmedia__svg {
+        padding: 2rem;
+        width: 12rem;
+    }
+
 
 
 }
@@ -273,5 +293,6 @@
         top: 13.5rem;
         left: -16px;
     }
+
 
 }
