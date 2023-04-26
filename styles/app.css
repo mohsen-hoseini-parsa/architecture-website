@@ -32,6 +32,27 @@ body {
     /* background-color: var(--app-bg); */
 }
 
+/*
+
+================
+ -- component --
+================
+
+ */
+
+.btn {
+    border: 2.5px solid var(--dark);
+    width: 20rem;
+    height: 5rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+
+
+
 
 
 /* --Reset Style--‌  */
@@ -75,7 +96,7 @@ a {
     justify-content: space-between;
     padding-top: 3.8rem;
     width: 100%;
-    padding-right: 3.5rem;
+    padding-right: 4.5rem;
     padding-left: 3.5rem;
     margin-right: auto;
     margin-left: auto;
@@ -331,13 +352,115 @@ a {
 */
 .header-arrow {
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     width: 4%;
     position: relative;
+
 }
 
 .header-arrow__img {
     position: absolute;
-    top: 28rem;
+    top: 23rem;
     left: 0;
+}
+
+
+
+/* MAIN */
+
+/* ABOUT US */
+.main {
+    margin-top: 12rem;
+}
+
+.bg-black {}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus-left {
+    background-color: var(--dark);
+    color: var(--white);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    flex-basis: 47%;
+    padding: 0 0 16rem 0;
+}
+
+.aboutus-left__wrapper {
+
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutus-left__caption {
+    font-size: 3.5rem;
+    max-width: 46rem;
+
+}
+
+.aboutus-right {
+
+    flex-basis: 50%;
+}
+
+.aboutus-right__wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.aboutus-right__title--group {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.aboutus-right__title {
+    font-size: 4rem;
+}
+
+.aboutus-right__line {
+    content: " ";
+    display: block;
+    width: 20rem;
+    height: .6rem;
+    background-color: var(--primar-colory);
+}
+
+.aboutus-right__caption {
+    font-size: 1.8rem;
+    color: var(--dark);
+    margin-top: 6rem;
+    max-width: 53rem;
+}
+
+.aboutus-right__description {
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    max-width: 53rem;
+}
+
+.aboutus-right__btn {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    width: 28rem;
+    height: 5rem;
+    margin-top: 13rem;
+    transition: all 230ms ease-in-out;
+}
+
+.aboutus-right__btn:hover {
+    background-color: var(--dark);
+    color: var(--white);
 }

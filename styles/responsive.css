@@ -1,10 +1,16 @@
-@media (max-width: 1900px) {}
+@media (max-width: 1800px) {}
 
 @media (max-width: 1600px) {}
 
 @media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {}
+
+@media (max-width: 1200px) {
+    .aboutus-left__caption {
+        font-size: 3rem;
+        max-width: 38rem;
+    }
+}
 
 @media (max-width: 992px) {
     .header-content {
@@ -13,27 +19,48 @@
     }
 
     .header-content__title {
-        font-size: 9rem;
-        margin-bottom: -3rem;
+        font-size: 11rem;
+        margin-bottom: -4rem;
     }
 
     .header-content__secondtitle {
-        font-size: 7rem;
+        font-size: 8.5rem;
         margin-bottom: 2rem;
-        max-width: 47rem;
+        max-width: 57rem;
     }
 
     .header-content__description {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
-    .header-arrow__img{
-        top: 22rem;
-        left: 0rem;
+
+    .header-arrow__img {
+        top: 17rem;
+        left: -9px;
+    }
+
+    .aboutus-left__caption {
+        font-size: 2.4rem;
+        max-width: 30rem;
+    }
+
+    .aboutus-right__caption {
+        font-size: 1.8rem;
+        margin-top: 4rem;
+    }
+
+
+    .aboutus-right__description {
+        font-size: 1.4rem;
+        margin-top: 4rem;
+    }
+
+    .aboutus-right__btn {
+        margin-top: 2rem;
     }
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .nav {
         display: flex;
@@ -60,17 +87,81 @@
 
     }
 
-    .header-content__secondtitle {
-        text-align: center;
-        max-width: 51rem;
+    .header-content__title {
+        font-size: 9.2rem;
+        margin-bottom: -3.4rem;
     }
 
+    .header-content__secondtitle {
+        text-align: center;
+        max-width: 52rem;
+        font-size: 7rem;
+    }
+
+    .header-content__description {
+        font-size: 1.6rem;
+    }
+
+    .header-arrow__img {
+        top: 17rem;
+        left: -16px;
+    }
+
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutus-left {
+        padding: 0;
+
+    }
+
+    .aboutus-left__caption {
+        padding: 15rem 0 15rem 0;
+        font-size: 2rem;
+
+
+    }
+
+    .aboutus-right__wrapper {
+        width: 100%;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .aboutus-right__title {
+        font-size: 2.5rem;
+    }
+    .aboutus-right__line {
+        margin: 0 auto;
+        width: 13.5rem;
+    }
+
+    .aboutus-right__caption {
+        padding: 0 1.5rem;
+    font-size: 1.6rem;
+    }
+
+    .aboutus-right__description {
+        padding: 0 1.5rem;
+        font-size: 1.2rem;
+
+    }
+    .aboutus-right__btn {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        width: 20rem;
+        height: 4rem;
+        margin-top: 0;
+    
+    }
 }
 
 @media (max-width: 650px) {
 
     .nav__wrapper {
-        padding: 0 0 0 2rem;
+        padding: 0 0 0 1rem;
         align-items: center;
     }
 
@@ -142,14 +233,13 @@
         margin: 2rem auto;
 
     }
-    .header-arrow__img{
-        top: 17rem;
-        left: 0rem;
-    }
+
+
 
 }
 
 @media (max-width: 490px) {
+
     .nav__btn {
         width: 7rem;
         height: 5rem;
@@ -179,6 +269,9 @@
 
     }
 
+    .header-arrow__img {
+        top: 13.5rem;
+        left: -16px;
+    }
 
 }
-
