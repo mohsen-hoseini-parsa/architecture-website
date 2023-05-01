@@ -1,11 +1,79 @@
-@media (max-width: 1800px) {}
+@media (max-width: 1800px) {
+    .popular-images__img {
+        width: 100%;
+        height: 100%;
+    }
 
-@media (max-width: 1600px) {}
+    .popular-content {
+        padding: 5rem 0 3rem 3rem;
+    }
 
-@media (max-width: 1400px) {}
+    .popular-content__maintitle {
+        margin-top: -3rem;
+    }
+
+    .popular-content__secondtitle {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+
+    .popular-content__caption {
+        font-size: 1.7rem;
+        padding-top: 1.5rem;
+        max-width: 27rem;
+        margin-top: 5rem;
+
+    }
+}
+
+@media (max-width: 1600px) {
 
 
-@media (max-width: 1200px) {
+    @media (max-width: 14500px) {
+        .popular-content__maintitle {
+            color: var(--grey);
+            font-family: var(--primary-font);
+            margin-top: -3rem;
+        }
+
+        .popular-content__secondtitle {
+
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            line-height: 2.4rem;
+            max-width: 30rem;
+            margin-top: 2rem;
+        }
+
+        .popular-content__caption {
+            font-size: 1.7rem;
+            padding-top: 1.5rem;
+            max-width: 27rem;
+            margin-top: 5rem;
+
+        }
+
+        .popular-content__btn {
+            margin-top: 3rem;
+
+        }
+
+        .popular-content__link {
+            width: 15rem;
+            height: 4.5rem;
+            font-size: 1.6rem;
+        }
+    }
+
+
+
+    /* .recent-posts__btn {
+        margin-left: 84rem;
+    } */
+}
+
+
+@media (max-width: 1300px) {
     .aboutus-left__caption {
         font-size: 3rem;
         max-width: 38rem;
@@ -14,6 +82,67 @@
     .abouts-socialmedia__title {
         font-size: 3.5rem;
     }
+
+    .popular {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+
+    .popular-images {
+        max-width: none;
+        flex: none;
+    }
+
+    .popular-images__img {
+        width: 35rem;
+        height: 30rem;
+    }
+
+    .popular-content {
+        padding: 3.5rem 0 3rem 3rem;
+    }
+
+    .popular-content__maintitle {
+        font-size: 1.4rem;
+        color: var(--grey);
+        font-family: var(--primary-font);
+        margin-top: -3rem;
+    }
+
+    .popular-content__secondtitle {
+
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        line-height: 2.4rem;
+        max-width: 30rem;
+        margin-top: 2rem;
+    }
+
+    .popular-content__caption {
+        font-size: 1.4rem;
+        padding-top: 1.5rem;
+        max-width: 23rem;
+        margin-top: 1rem;
+
+    }
+
+    .popular-content__btn {
+        margin-top: 3rem;
+
+    }
+
+    .popular-content__link {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+
+    /* .recent-posts__btn {
+        margin-left: 65rem;
+    } */
 }
 
 @media (max-width: 992px) {
@@ -55,13 +184,24 @@
 
     .aboutus-right__description {
         font-size: 1.4rem;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
+
 
     .aboutus-right__btn {
         margin-top: 2rem;
     }
 
+    /* .recent-posts__btn {
+        margin-left: 40rem;
+        margin-top: 0rem;
+    }
+
+    .recent-posts__link {
+        width: 15rem;
+        height: 4rem;
+        font-size: 1rem;
+    } */
 }
 
 @media (max-width: 768px) {
@@ -119,14 +259,11 @@
 
     .aboutus-left {
         padding: 0;
-
     }
 
     .aboutus-left__caption {
         padding: 15rem 0 15rem 0;
         font-size: 2rem;
-
-
     }
 
     .aboutus-right__wrapper {
@@ -155,18 +292,36 @@
 
     }
 
-    .aboutus-right__btn {
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        width: 20rem;
-        height: 4rem;
-        margin-top: 0;
+    .aboutus-right__link {
+        margin-top: 2rem;
+    }
 
+    .aboutus-right__btn {
+        font-size: 1.3rem;
+        width: 25rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .abouts-socialmedia__title {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
+
+    .abouts-socialmedia {
+        margin-top: 15rem;
+    }
+
+    .abouts-socialmedia__svg {
+        width: 12.5rem;
+    }
+
+    .popular-images__img {
+        width: 58rem;
+        height: 40rem;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -245,15 +400,10 @@
 
     }
 
-    .abouts-socialmedia {
-        margin-top: 9rem;
+    .popular-images__img {
+        width: 45rem;
+        height: 35rem;
     }
-
-    .abouts-socialmedia__svg {
-        padding: 2rem;
-        width: 12rem;
-    }
-
 
 
 }
@@ -294,5 +444,32 @@
         left: -16px;
     }
 
+    .aboutus-right__btn {
+        width: 18rem;
+        height: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
+    }
+
+    .aboutus-right__link {
+        margin-top: 4rem;
+        font-size: 1.3rem;
+
+    }
+
+
+    .abouts-socialmedia__title {
+        font-size: 1.6rem;
+    }
+
+    .popular {
+        margin-top: 12rem;
+    }
+
+    .popular-images__img {
+        width: 30rem;
+        height: 27rem;
+    }
 }

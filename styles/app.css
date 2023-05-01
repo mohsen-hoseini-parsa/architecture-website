@@ -428,11 +428,6 @@ a {
 
 }
 
-.aboutus-right__title--group {
-    /* display: flex;
-    flex-direction: column; */
-}
-
 .aboutus-right__title {
     font-size: 4rem;
 }
@@ -460,16 +455,20 @@ a {
     max-width: 53rem;
 }
 
-.aboutus-right__btn {
+.aboutus-right__link {
     text-transform: uppercase;
     font-size: 1.9rem;
     width: 28rem;
     height: 5rem;
     margin-top: 13rem;
-    transition: all 230ms ease-in-out;
+    transition: all 270ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.aboutus-right__btn:hover {
+.aboutus-right__link:hover {
     background-color: var(--dark);
     color: var(--white);
 }
@@ -477,9 +476,9 @@ a {
 
 
 /* 
-=================
-  --ABOUTUS social--
-================= 
+===================
+--ABOUTUS social--
+===================
 */
 
 .abouts-socialmedia {
@@ -501,12 +500,12 @@ a {
 
 .abouts-socialmedia__svgs {
     margin-top: 5rem;
-        margin-top: 5rem;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -514,6 +513,103 @@ a {
     padding: 2.2rem;
 
 }
-.abouts-socialmedia__svg:hover{
+
+.abouts-socialmedia__svg:hover {
     color: var(--primar-colory);
 }
+
+
+/* 
+==================
+--POPULAR IMAGES--
+================== 
+*/
+
+/* POPULAR */
+
+.popular {
+    margin-top: 18rem;
+    display: flex;
+
+}
+
+.popular-images {
+    position: relative;
+    flex: 33.33%;
+    max-width: 33.33%;
+    display: flex;
+}
+
+
+.popular-images__img {
+    width: 100%;
+    height: 100%;
+}
+
+.popular-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    width: 100%;
+    height: 100%;
+    padding: 3.5rem 0 0 4.5rem;
+    justify-content: center;
+}
+
+.popular-content__maintitle {
+    color: var(--grey);
+    font-family: var(--primary-font);
+    margin-top: -4rem;
+
+}
+
+.popular-content__secondtitle {
+    color: var(--white);
+    font: menu;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    max-width: 44rem;
+    margin-top: 6rem;
+}
+
+.popular-content__line {}
+
+.popular-content__caption {
+    font-family: var(--primary-font);
+    color: #CBCBCB;
+    font-size: 1.9rem;
+    border-top: 3px solid var(--primar-colory);
+    padding-top: 1.5rem;
+    max-width: 30rem;
+    margin-top: 3rem;
+
+}
+
+
+.popular-content__btn{
+    margin-top: 5.5rem;
+
+}
+
+.popular-content__link {
+    color: var(--white);
+    border: 2px solid var(--white);
+    width: 16rem;
+    height: 4.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+/* 
+==================
+--comments-posts--
+================== 
+*/
+
