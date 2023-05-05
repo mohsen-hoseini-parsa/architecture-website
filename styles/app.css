@@ -896,3 +896,48 @@ a {
 .newsletter__submit:hover {
     color: var(--primar-colory);
 }
+
+/* 
+
+=====================
+    --FOOTER--
+=====================
+
+*/
+
+.footer {
+    margin-top: 5.2rem;
+
+}
+
+.footer__content {
+    text-align: center;
+}
+
+.footer__caption {
+    margin-bottom:3.4rem;
+    text-transform: uppercase;
+    font: small-caption;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+
+
+.footer-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.footer-app__logo {
+    margin: auto 1.5rem;
+    height: 2.4rem;
+    width: 2.4rem;
+    transition: all 230ms ease-out;
+}
+
+.footer-app__logo:hover {
+    fill: var(--primar-colory);
+}
