@@ -485,9 +485,12 @@
         height: 1.3rem;
         margin-right: 0.5rem;
     }
+    
+    .comments__description {
+        font-size: 1.3rem;
+        word-spacing: 0.25rem;
 
-
-
+    }
 }
 
 @media (max-width: 650px) {
