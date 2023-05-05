@@ -252,14 +252,13 @@ a {
 */
 .nav__btn {
     background-color: var(--white);
-    width: 7rem;
+    width: 6rem;
     height: 5.5rem;
     border-radius: 1.8rem;
     display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: 3.5rem 5rem 0 0;
 
 }
 
@@ -315,32 +314,34 @@ a {
 
 .header-content {
     color: var(--white);
-    align-items: center;
-    justify-content: center;
-    margin-top: 20rem;
-
+    margin-top: 27rem;
 }
 
 .header-content__title {
-    font-size: 14rem;
-    margin-bottom: -5rem;
-    font-family: var(--secondary-font-bold);
+    font: menu;
+    font-size: 13rem;
+    margin-bottom: -1rem;
+    font-weight: 700;
+    /* font-family: var(--secondary-font-bold); */
 
 }
 
 .header-content__secondtitle {
-    font-size: 10.8rem;
+    font: menu;
+    font-size: 9.65rem;
     position: relative;
     margin-bottom: 3rem;
-    font-family: var(--secondary-font-bold);
+    padding-bottom: 1.7rem;
     border-bottom: 5px solid var(--primar-colory);
-    max-width: 72rem;
+    max-width: 64rem;
+    font-weight: 700;
+    /* font-family: var(--secondary-font-bold); */
 
 }
 
 .header-content__description {
     font-family: var(--primary-font);
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 /*
@@ -412,7 +413,7 @@ a {
 
 .aboutus-left__caption {
     font-size: 3.8rem;
-    max-width: 40rem;
+    max-width: 44rem;
     margin-right: -5rem;
 }
 
@@ -810,7 +811,7 @@ a {
 =====================
  */
 
- .newsletter {
+.newsletter {
     margin-top: 10rem;
     width: 100%;
     height: 100%;
@@ -915,7 +916,7 @@ a {
 }
 
 .footer__caption {
-    margin-bottom:3.4rem;
+    margin-bottom: 3.4rem;
     text-transform: uppercase;
     font: small-caption;
     font-size: 1.6rem;

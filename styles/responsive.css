@@ -34,6 +34,7 @@
 }
 
 @media (max-width: 1450px) {
+
     .popular-content__maintitle {
         color: var(--grey);
         font-family: var(--primary-font);
@@ -76,9 +77,15 @@
 
 
 @media (max-width: 1300px) {
+    .aboutus-left__wrapper {
+        margin-top: -5rem;
+        margin-left: 3rem;
+    }
+
     .aboutus-left__caption {
-        font-size: 3rem;
-        max-width: 38rem;
+        font-size: 2.8rem;
+        max-width: 34rem;
+
     }
 
     .abouts-socialmedia__title {
@@ -161,24 +168,20 @@
 }
 
 @media (max-width: 992px) {
-    .header-content {
-        margin-top: 20rem;
-        padding-bottom: 20rem;
-    }
+
 
     .header-content__title {
-        font-size: 11rem;
-        margin-bottom: -4rem;
+        font-size: 9rem;
     }
 
     .header-content__secondtitle {
-        font-size: 8.5rem;
-        margin-bottom: 2rem;
-        max-width: 57rem;
+        font-size: 6.8rem;
+        padding-bottom: 1.7rem;
+        max-width: 46rem;
     }
 
     .header-content__description {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .header-arrow__img {
@@ -203,7 +206,7 @@
 
     .aboutus-left__caption {
         font-size: 2.3rem;
-        max-width: 26rem;
+        max-width: 28rem;
         margin-right: -3rem;
         line-height: 1.5;
     }
@@ -304,30 +307,33 @@
     }
 
     .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
-
+        margin: 30rem auto;
     }
 
     .header-content__title {
-        font-size: 9.2rem;
-        line-height: 1.8;
+        font-size: 8rem;
     }
 
     .header-content__secondtitle {
         text-align: center;
-        max-width: 52rem;
-        font-size: 7rem;
+        font-size: 5.8rem;
         margin: 0 auto;
-        max-width: 48rem;
+        max-width: 40rem;
+        padding-bottom: 1rem;
     }
 
     .header-content__description {
-        margin-top: 2rem;
-        font-size: 1.6rem;
+        margin-top: 2.2rem;
+        font-size: 1.35rem;
     }
 
     .header-arrow__img {
-        top: 17rem;
+        top: 0;
         left: -16px;
     }
 
@@ -503,13 +509,13 @@
 
 @media (max-width: 650px) {
 
-    .nav__wrapper {
-        padding: 0 0 0 1rem;
-        align-items: center;
-    }
-
     .nav-menu {
         width: 25rem;
+    }
+
+    .nav__btn {
+        width: 5.5rem;
+        height: 4.8rem;
     }
 
     .nav-menu__title {
@@ -547,35 +553,6 @@
         height: 0.3rem;
     }
 
-    .nav__btn {
-        width: 7rem;
-        height: 5.5rem;
-        margin: 3rem 1.5rem;
-    }
-
-    .header-content {
-        text-align: center;
-    }
-
-    .header-content__title {
-        font-size: 8rem;
-        margin-bottom: -1.8rem;
-        text-align: center;
-    }
-
-    .header-content__secondtitle {
-        font-size: 6rem;
-        text-align: center;
-        max-width: 40rem;
-        margin: 0 auto;
-    }
-
-    .header-content__description {
-        font-size: 2rem;
-        max-width: 30rem;
-        margin: 2rem auto;
-
-    }
 
     .popular-images__img {
         width: 45rem;
@@ -664,31 +641,34 @@
 @media (max-width: 490px) {
 
     .nav__btn {
-        width: 7rem;
-        height: 5rem;
-        padding: 0;
+        flex-shrink: 1;
+        width: 5.2rem;
+        height: 4.8rem;
     }
 
-    .header-content {
-        text-align: center;
-        margin-top: 29rem;
+    .nav__wrapper {
+        padding-top: 2.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
     }
+
+
 
     .header-content__title {
         font-size: 5rem;
-        margin-bottom: -1.5rem;
     }
 
     .header-content__secondtitle {
         font-size: 3.5rem;
         max-width: 27rem;
-        margin: 0 auto 1.5rem auto;
-
     }
 
     .header-content__description {
-        font-size: 1.8rem;
-        max-width: 30rem;
+        font-size: 1.4rem;
+        max-width: 20rem;
+        margin-top: 1rem;
 
     }
 
