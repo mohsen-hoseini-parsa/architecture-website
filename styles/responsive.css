@@ -22,55 +22,57 @@
         padding-top: 1.5rem;
         max-width: 27rem;
         margin-top: 5rem;
-
     }
 }
 
 @media (max-width: 1600px) {
+    .aboutus-left__caption {
+        font-size: 3.8rem;
+        max-width: 45rem;
+        margin-right: 4.5rem;
+    }
+}
 
+@media (max-width: 1450px) {
+    .popular-content__maintitle {
+        color: var(--grey);
+        font-family: var(--primary-font);
+        margin-top: -3rem;
+    }
 
-    @media (max-width: 14500px) {
-        .popular-content__maintitle {
-            color: var(--grey);
-            font-family: var(--primary-font);
-            margin-top: -3rem;
-        }
+    .popular-content__secondtitle {
 
-        .popular-content__secondtitle {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        line-height: 2.4rem;
+        max-width: 30rem;
+        margin-top: 2rem;
+    }
 
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            line-height: 2.4rem;
-            max-width: 30rem;
-            margin-top: 2rem;
-        }
+    .popular-content__caption {
+        font-size: 1.7rem;
+        padding-top: 1.5rem;
+        max-width: 27rem;
+        margin-top: 5rem;
 
-        .popular-content__caption {
-            font-size: 1.7rem;
-            padding-top: 1.5rem;
-            max-width: 27rem;
-            margin-top: 5rem;
+    }
 
-        }
+    .popular-content__btn {
+        margin-top: 3rem;
 
-        .popular-content__btn {
-            margin-top: 3rem;
+    }
 
-        }
-
-        .popular-content__link {
-            width: 15rem;
-            height: 4.5rem;
-            font-size: 1.6rem;
-        }
+    .popular-content__link {
+        width: 15rem;
+        height: 4.5rem;
+        font-size: 1.6rem;
     }
 
 
-
-    /* .recent-posts__btn {
-        margin-left: 84rem;
-    } */
 }
+
+
+
 
 
 @media (max-width: 1300px) {
@@ -97,7 +99,7 @@
     }
 
     .popular-images__img {
-        width: 35rem;
+        width: 37rem;
         height: 30rem;
     }
 
@@ -140,9 +142,22 @@
         font-size: 1.3rem;
     }
 
-    /* .recent-posts__btn {
-        margin-left: 65rem;
-    } */
+    .recent-posts__btn {
+        margin-top: 5rem;
+    }
+
+    .recent-posts__link {
+        border: 3.2px solid var(--dark);
+        font: menu;
+        font-size: 1.2rem;
+        word-spacing: 0.025rem;
+        letter-spacing: .025rem;
+        width: 14rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 992px) {
@@ -171,37 +186,99 @@
         left: -9px;
     }
 
+    .aboutus-left {
+        padding: 0 0 4rem 1.5rem;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .aboutus-left__wrapper {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -7rem;
+    }
+
     .aboutus-left__caption {
-        font-size: 2.4rem;
-        max-width: 30rem;
+        font-size: 2.3rem;
+        max-width: 26rem;
+        margin-right: -3rem;
+        line-height: 1.5;
+    }
+
+    .aboutus-right__title {
+        font-size: 3.1rem;
+        padding-bottom: 1rem;
+    }
+
+    .aboutus-right__line {
+        content: " ";
+        width: 16rem;
     }
 
     .aboutus-right__caption {
-        font-size: 1.8rem;
-        margin-top: 4rem;
+        font-size: 1.4rem;
+        margin-top: 2.5rem;
     }
-
 
     .aboutus-right__description {
         font-size: 1.4rem;
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 
-
     .aboutus-right__btn {
+        margin-top: 17rem;
+    }
+
+    .recent-posts__title {
+        max-width: 21rem;
+        font-size: 3rem;
+    }
+
+    .recent-posts__caption {
+        font-size: 1.8rem;
+        max-width: 116rem;
+        padding-right: 1rem;
+    }
+
+    .post-person__icon {
+        height: 1.5rem;
+    }
+
+    .post-person__title {
+        font-size: 1.5rem;
+    }
+
+    .post-person__calendar {
+        margin-right: 0.7rem;
+        display: block;
+        height: 1.5rem;
+    }
+
+    .post-person__date {
+        font-size: 1.5rem;
+    }
+
+    .comments-person__title {
+        text-transform: uppercase;
+        word-spacing: 0.8rem;
+        font: menu;
+        font-size: 2rem;
         margin-top: 2rem;
     }
 
-    /* .recent-posts__btn {
-        margin-left: 40rem;
-        margin-top: 0rem;
+
+    .comments-person__caption {
+        font-size: 1.6rem;
+        max-width: 66rem;
     }
 
-    .recent-posts__link {
-        width: 15rem;
-        height: 4rem;
-        font-size: 1rem;
-    } */
+    .comment {
+        margin-top: 3.5rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -233,16 +310,19 @@
 
     .header-content__title {
         font-size: 9.2rem;
-        margin-bottom: -3.4rem;
+        line-height: 1.8;
     }
 
     .header-content__secondtitle {
         text-align: center;
         max-width: 52rem;
         font-size: 7rem;
+        margin: 0 auto;
+        max-width: 48rem;
     }
 
     .header-content__description {
+        margin-top: 2rem;
         font-size: 1.6rem;
     }
 
@@ -261,9 +341,16 @@
         padding: 0;
     }
 
+    .aboutus-left__wrapper {
+        margin-top: 0;
+        max-width: 34rem;
+    }
+
     .aboutus-left__caption {
-        padding: 15rem 0 15rem 0;
-        font-size: 2rem;
+        padding: 17rem 2rem 17rem 2rem;
+        font-size: 2.2rem;
+        max-width: 34rem;
+        margin-right: 0;
     }
 
     .aboutus-right__wrapper {
@@ -273,54 +360,133 @@
     }
 
     .aboutus-right__title {
-        font-size: 2.5rem;
+        font: menu;
+        font-size: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: .5rem;
+
     }
 
     .aboutus-right__line {
-        margin: 0 auto;
-        width: 13.5rem;
+        width: 10.5rem;
+        height: 0.4rem;
+        margin-left: 2rem;
+        font: menu;
+        font-size: 2.2rem;
     }
 
     .aboutus-right__caption {
-        padding: 0 1.5rem;
         font-size: 1.6rem;
+        max-width: 55rem;
+        margin: 3.5rem 0;
+        padding: 0 2rem;
+
     }
 
     .aboutus-right__description {
-        padding: 0 1.5rem;
         font-size: 1.2rem;
-
+        max-width: 45rem;
+        padding: 0 2rem;
     }
 
     .aboutus-right__link {
-        margin-top: 2rem;
+
+        margin-left: 2rem;
+        width: 16rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
     }
 
     .aboutus-right__btn {
-        font-size: 1.3rem;
+        display: flex;
+        justify-content: left;
+        font-size: .5rem;
+    }
+
+
+    .aboutus-right__btn {
         width: 25rem;
         height: 4rem;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: left;
+        align-items: start;
+        margin-top: 3rem;
+        font-size: 1rem;
+
     }
 
     .abouts-socialmedia__title {
-        font-size: 2.4rem;
+        font-size: 2.7rem;
     }
 
     .abouts-socialmedia {
         margin-top: 15rem;
     }
 
-    .abouts-socialmedia__svg {
-        width: 12.5rem;
-    }
-
     .popular-images__img {
         width: 58rem;
         height: 40rem;
     }
+
+    .recent-posts__title {
+        font-family: var(--secondary-font-semibold);
+        border-bottom: 0.5rem solid var(--primar-colory);
+        max-width: 15.5rem;
+        font: menu;
+        font-size: 2.2rem;
+    }
+
+    .recent-posts__caption {
+        margin-top: 3rem;
+        font-size: 1.6rem;
+        max-width: 116rem;
+        padding-right: 1rem;
+    }
+
+    .post-person__icon {
+        height: 1.3rem;
+        margin-right: 0.5rem;
+    }
+
+    .post-person__title {
+        font-size: 1.3rem;
+    }
+
+    .post-person__calendar {
+        margin-right: 0.5rem;
+        display: block;
+        height: 1.3rem;
+    }
+
+    .post-person__date {
+        font-size: 1.3rem;
+    }
+
+    .comments-person__title {
+        text-transform: uppercase;
+        word-spacing: 0.8rem;
+        font: menu;
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+
+    .comments-person__caption {
+        font-size: 1.2rem;
+        line-height: 1;
+        margin-top: 1.5rem;
+    }
+
+    .comment {
+        margin-top: 2.5rem;
+    }
+
+    .comments__icon {
+        height: 1.3rem;
+        margin-right: 0.5rem;
+    }
+
+
 
 }
 
@@ -405,6 +571,67 @@
         height: 35rem;
     }
 
+    .recent-posts__title {
+        max-width: 13rem;
+        font: menu;
+        font-size: 1.8rem;
+    }
+
+    .recent-posts__caption {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+
+    }
+
+    .post-person__icon {
+        height: 1.1rem;
+        margin-right: 0.3rem;
+    }
+
+    .post-person__title {
+        font-size: 1.1rem;
+    }
+
+    .post-person__calendar {
+        margin-right: 0.3rem;
+        display: block;
+        height: 1.1rem;
+    }
+
+    .post-person__date {
+        font-size: 1.1rem;
+    }
+
+    .comments-person__title {
+        text-transform: uppercase;
+        word-spacing: 0.3rem;
+        font: menu;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+
+
+    .comments-person__caption {
+        font-size: 1.1rem;
+        line-height: 1;
+        margin-top: 1.5rem;
+    }
+
+    .comment {
+        margin-top: 2rem;
+    }
+
+    .comments__icon {
+        height: 1.1rem;
+        margin-right: 0.5rem;
+    }
+
+    .comments__description {
+        font-size: 1.1rem;
+        word-spacing: 0.25rem;
+
+    }
+
 
 }
 
@@ -444,24 +671,21 @@
         left: -16px;
     }
 
-    .aboutus-right__btn {
-        width: 18rem;
-        height: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .aboutus-left__caption {
+        padding: 14rem 0rem 16rem 0rem;
+        font-size: 1.6rem;
+        max-width: 23rem;
     }
-
-    .aboutus-right__link {
-        margin-top: 4rem;
-        font-size: 1.3rem;
-
-    }
-
 
     .abouts-socialmedia__title {
-        font-size: 1.6rem;
+        font-size: 2rem;
+        max-width: 26rem;
+    }
+
+    .abouts-socialmedia__svg {
+        height: 10rem;
+        padding: 1.5rem;
+
     }
 
     .popular {
@@ -469,7 +693,19 @@
     }
 
     .popular-images__img {
-        width: 30rem;
-        height: 27rem;
+
+        width: 27rem;
+        height: 25rem;
+
     }
+
+    .recennt-post__wrapper {
+        position: relative;
+        padding-left: 2rem;
+        padding-right: 1.3rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
 }
